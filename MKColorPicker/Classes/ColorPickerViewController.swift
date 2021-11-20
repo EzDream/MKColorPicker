@@ -130,7 +130,7 @@ extension ColorPickerViewController: ColorPickerViewDelegate, ColorPickerViewDel
     
     //MARK: - ColorPickerViewDelegateFlowLayout
     public func colorPickerView(_ colorPickerView: ColorPickerView, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 30, height: 30)
+        return CGSize(width: 35, height: 35)
     }
     
     public func colorPickerView(_ colorPickerView: ColorPickerView, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
